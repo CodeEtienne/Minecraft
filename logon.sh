@@ -36,7 +36,7 @@ Print_Style "$UNAME" "$YELLOW"
 uptime
 echo
 Print_Style "MINECRAFT" "$RED"
-mcrcon -H $IPaddr -p C0sm0s1826 "list"
+mcrcon -H $IPaddr -p *PASSWORD* "list"
 echo
 Print_Style "MEMORY" "$RED"
 Print_Style "Total memory: $TotalMemory - Available Memory: $AvailableMemory - Used Memory: $UsedMemory" "$NORMAL"
