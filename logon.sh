@@ -42,9 +42,13 @@ uptime
 # Minecraft
 echo
 Print_Style "MINECRAFT" "$RED"
+<<<<<<< HEAD
 mcrcon -H $IPaddr -p C0sm0s1826 "list"
 
 # Memory
+=======
+mcrcon -H $IPaddr -p *PASSWORD* "list"
+>>>>>>> 96929af39d1ab98f235a47d0e597213f3fee0a26
 echo
 Print_Style "MEMORY" "$RED"
 Print_Style "Total memory: $TotalMemory - Available Memory: $AvailableMemory - Used Memory: $UsedMemory" "$NORMAL"
