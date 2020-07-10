@@ -100,17 +100,18 @@ for file in files(statDir):
 # 3 - Generating the csv file
 
 stat_names = []
-players = sorted(stats.keys())
 
 # Gets a list of player names
+players = sorted(stats.keys())
+
+# Gets a list of stat names
 for player in stats:
     for row in stats[player]:
         stat_names.append(row)
 
-# Gets a list of stat names
 stat_names = sorted(list(set(stat_names)))
 
-# onto the csv file
+# Onto the csv file
 
 # Here we generate the header
 csv = ''
