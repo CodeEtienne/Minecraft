@@ -111,7 +111,7 @@ for player in stats:
 
 stat_names = sorted(list(set(stat_names)))
 
-# onto the csv file
+# Onto the csv file
 
 # Here we generate the header
 csv = ''
